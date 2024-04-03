@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Master</title>
+    <!-- Icon link -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <!-- Tailwind & Daisyui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="h-screen">
+        <!-- Navbar Start -->
+          <div class="navbar bg-base-100 shadow-md lg:px-16 md:px-12 px-1">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>
+                    <details>
+                      <summary>How to works</summary>
+                      <ul class="p-2 text-sm lg:text-xl">
+                          <li><a>Budget</a></li>
+                          <li><a>Expense_Tracking</a></li>
+                          <li><a>Planned_Payments</a></li>
+                          <li><a>Cash Flow Insights</a></li>
+                          <li><a>Bank Sync</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Resources</summary>
+                      <ul class="p-2 text-sm lg:text-xl">
+                          <li><a>Blog</a></li>
+                          <li><a>bank_to_sync</a></li>
+                          <li><a>Careers</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Security</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li><a>Support</a></li>
+                  <li class="bg-slate-100 rounded-2xl"><a>For Business</a></li>
+                  
+                </ul>
+                
+              </div>
+              <a > <img src="assets/images/logo-colors.svg" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex justify-evenly  ">
+              <ul class="menu menu-horizontal px-1">
+                
+                <li>
+                  <details>
+                    <summary>How to works</summary>
+                    <ul class="p-2 text-sm">
+                        <li><a>Budget</a></li>
+                        <li><a>Expense_Tracking</a></li>
+                        <li><a>Planned_Payments</a></li>
+                        <li><a>Cash Flow Insights</a></li>
+                        <li><a>Bank Sync</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Resources</summary>
+                    <ul class="p-2 text-sm">
+                        <li><a>Blog</a></li>
+                        <li><a>bank_to_sync</a></li>
+                        <li><a>Careers</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Security</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Support</a></li>
+                <li class="bg-slate-100 rounded-2xl ml-2"><a>For Business</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end lg:gap-4 md:gap-5 gap-1">
+              <button class="btn btn-outline btn-primary btn-sm ">Log In</button>
+              <button class="btn btn-primary btn-sm ">Sign UP</button>
+            </div>
+          </div>
+          <!-- Hero section start -->
+          <section class="hero  bg-slate-50 ">
+              <div class="content grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 lg:py-20 md:16 py-12">
+                 <div class="px-3 ml-10">
+                    <img src="assets/images/wallet-by-budgetbakers.svg " alt="img" class="py-4">
+                    <h3 class="lg:text-6xl md:text-4xl text-3xl font-bold pb-5">Your Finances <br>in <span class="text-lime-500"> One Place</span></h3>
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 pb-5 gap-2">
+                        <img src="assets/images/google-play.svg" alt="">
+                        <img src="assets/images/app-store.svg" alt="">
+                    </div>
+                    <button class="btn btn-outline btn-primary text-xl">Try Web App <i class="ri-arrow-right-circle-line text-xl"></i> </button>
+                 </div>
+                 <div >
+                   <img src="assets/images/main_img-3.png" alt="" class="h-96">
+                 </div>
+              </div>
+          </section>
+    </header>
+    <main>
+        <!-- Cases Section start -->
+        <section class="cases lg:mx-16 md:mx-12 mx-4">
+            <div class="max-h-screen">
+                <!-- <div class="rating grid lg:grid-cols-4 grid-cols-2 lg:mt-32 md:mt-20 mt-16 gap-4">
+                    <div class=" border shadow-md rounded-lg text-center py-3 ">
+                        <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">6.5 M</h3>
+                        <p class="text-xl font-medium"> <i class="ri-user-line text-2xl font-bold text-lime-500 pr-4"></i>Downloads</p>
+                    </div>
+                    <div class=" border shadow-md rounded-lg text-center py-3 ">
+                      <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">4.7</h3>
+                        <p class="text-xl font-medium">  <i class="ri-star-fill text-2xl font-bold text-lime-500 pr-4"></i>Rating</p>
+                    </div>
+                    <div class=" border shadow-md rounded-lg text-center py-3  ">
+                      <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">20+</h3>
+                        <p class="text-xl font-medium">  <i class="ri-global-line text-2xl font-bold text-lime-500 pr-4"></i>Languages</p>
+                    </div>
+                    <div class=" border shadow-md rounded-lg text-center py-3 ">
+                      <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">15K</h3>
+                        
+                        <p><i class="ri-bank-line text-2xl font-bold text-lime-500 "></i> Banks Connect</p>
+                    </div>
+                </div> -->
+                <div class="use_case grid lg:grid-cols-3 grid-cols-2">
+                    <h3 class="title text-6xl font-bold lg:py- md:py-16 py-12 text-center">Use Cases</h3>
+                    <div class="grid grid-cols-3 gap-3">
+                        <div class="border rounded-md shadow-md bg-blue-400 py-5 pl-5 text-white">
+                          <h3 class="text-3xl font-bold py-4">Budgeting</h3>
+                          <p>Set unlimited daily, weekly, monthly,<br> or one-time budgets</p>
+                        </div>
+                        <div  class="border rounded-md shadow-md bg-orange-500 py-5 pl-5 text-white">
+                          <h3 class="text-3xl font-bold py-4">Expense
+                            control</h3>
+                          <p>See every transaction, synced and <br>categorized automatically.</p>
+                        </div>
+                        <div class="border rounded-md shadow-md bg-green-500 py-5 pl-5 text-white">
+                          <h3 class="text-3xl font-bold py-4" >Planning</h3>
+                          <p>Get ahead of the curve. Automated upcoming br payment notifications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
