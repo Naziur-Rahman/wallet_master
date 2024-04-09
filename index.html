@@ -3,48 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/logo.jpg" type="image/x-icon " class="text-2xl">
-    <title>Walet master</title>
-    <!-- css link -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Wallet Master</title>
     <!-- Icon link -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"/>
-<!-- Tailwind link -->
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Tailwind & Daisyui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 <body>
-   
+    <header class=" min-h-full  ">
+        <!-- Navbar Start -->
+          <div class="navbar bg-base-100 shadow-md lg:px-16 md:px-12 px-1">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li>
+                    <details>
+                      <summary>How to works</summary>
+                      <ul class="p-2 text-sm lg:text-xl">
+                          <li><a>Budget</a></li>
+                          <li><a>Expense_Tracking</a></li>
+                          <li><a>Planned_Payments</a></li>
+                          <li><a>Cash Flow Insights</a></li>
+                          <li><a>Bank Sync</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details>
+                      <summary>Resources</summary>
+                      <ul class="p-2 text-sm lg:text-xl">
+                          <li><a>Blog</a></li>
+                          <li><a>bank_to_sync</a></li>
+                          <li><a>Careers</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Security</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li><a>Support</a></li>
+                  <li class="bg-slate-100 rounded-2xl"><a>For Business</a></li>
+                  
+                </ul>
+                
+              </div>
+              <a > <img src="assets/images/logo-colors.svg" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex justify-evenly  ">
+              <ul class="menu menu-horizontal px-1">
+                
+                <li>
+                  <details>
+                    <summary>How to works</summary>
+                    <ul class="p-2 text-sm">
+                        <li><a>Budget</a></li>
+                        <li><a>Expense_Tracking</a></li>
+                        <li><a>Planned_Payments</a></li>
+                        <li><a>Cash Flow Insights</a></li>
+                        <li><a>Bank Sync</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Resources</summary>
+                    <ul class="p-2 text-sm">
+                        <li><a>Blog</a></li>
+                        <li><a>bank_to_sync</a></li>
+                        <li><a>Careers</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Security</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Support</a></li>
+                <li class="bg-slate-100 rounded-2xl ml-2"><a>For Business</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end lg:gap-4 md:gap-5 gap-1">
+              <button class="btn btn-outline btn-primary btn-sm ">Log In</button>
+              <button class="btn btn-primary btn-sm ">Sign UP</button>
+            </div>
+          </div>
+          <!-- Hero section start -->
+          <section class="hero  bg-slate-50 min-h-[calc(100vh-68px)]">
+              <div class="content grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-32 lg:py-20 md:16 py-12">
+                 <div class="px-3 ml-10">
+                    <img src="assets/images/wallet-by-budgetbakers.svg " alt="img" class="py-4">
+                    <h3 class="lg:text-6xl md:text-5xl text-4xl font-bold pb-5">Your Finances <br>in <span class="text-lime-500"> One Place</span></h3>
+                    <div class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-3 pb-5 mx-auto">
+                        <img src="assets/images/google-play.svg" alt="">
+                        <img src="assets/images/app-store.svg" alt="">
+                    </div>
+                    <button class="btn btn-outline btn-primary text-xl">Try Web App <i class="ri-arrow-right-circle-line text-xl"></i> </button>
+                 </div>
+                 <div >
+                   <img src="assets/images/main_img-3.png" alt="" class="h-96">
+                 </div>
+              </div>
+          </section>
+    </header>
     <main>
-      <!--  -->
-      <!-- Use case section start -->
-        <section class=" h-screen ">
-           <div class="lg:mx-16 md:mx-12 sm:mx-2">
-                <div class="rating grid lg:grid-cols-4 grid-cols-2 lg:mt-32 md:mt-20 mt-16 gap-4">
+        <!-- Cases Section start -->
+            <div class="min-h-screen mb-12 lg:mx-16 md:mx-12 mx-4 ">
+                <div class="rating grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 lg:mt-32 md:mt-20 mt-16 mx-auto">
                     <div class=" border shadow-md rounded-lg text-center py-3 ">
                         <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">6.5 M</h3>
-                        <p class="text-xl font-medium"> <i class="ri-user-line text-2xl font-bold text-lime-500 pr-4"></i>Downloads</p>
+                        <p class="text-xl font-medium mx-auto"> <i class="ri-user-line text-2xl font-bold text-lime-500 mx-auto"></i>Downloads</p>
                     </div>
-                    <div class=" border shadow-md rounded-lg text-center py-3 px-28">
+                    <div class=" border shadow-md rounded-lg text-center py-3 ">
                       <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">4.7</h3>
-                        <p class="text-xl font-medium">  <i class="ri-star-fill text-2xl font-bold text-lime-500 pr-4"></i>Rating</p>
+                        <p class="text-xl font-medium mx-auto">  <i class="ri-star-fill text-2xl font-bold text-lime-500 mx-auto"></i>Rating</p>
                     </div>
-                    <div class=" border shadow-md rounded-lg text-center py-3 px-28 ">
+                    <div class=" border shadow-md rounded-lg text-center py-3  ">
                       <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">20+</h3>
-                        <p class="text-xl font-medium">  <i class="ri-global-line text-2xl font-bold text-lime-500 pr-4"></i>Languages</p>
+                        <p class="text-xl font-medium mx-auto">  <i class="ri-global-line text-2xl font-bold text-lime-500 mx-auto"></i>Languages</p>
                     </div>
-                    <div class=" border shadow-md rounded-lg text-center py-3 px-28">
+                    <div class=" border shadow-md rounded-lg text-center py-3 ">
                       <h3 class="lg:text-4xl md:text-3xl text-2xl font-bold pb-3">15K</h3>
-                        <!-- <p class="text-xl font-medium"> <i class="ri-bank-line text-2xl font-bold text-lime-500 "></i> Banks Connect</p> -->
-                        <p><i class="ri-bank-line text-2xl font-bold text-lime-500 "></i> Banks Connect</p>
+                        
+                        <p class="text-xl font-medium mx-auto"><i class="ri-bank-line text-2xl font-bold text-lime-500 "></i> Banks Connect</p>
                     </div>
                 </div>
-                <!-- <div class="use_case grid ">
-                    <h3 class="title text-6xl font-bold lg:py- md:py-16 py-12 text-center">Use Cases</h3>
-                    <div class="grid grid-cols-3 gap-3">
+                <div class="use_case ">
+                    <h3 class="title lg:text-5xl md:text-4xl text-3xl font-bold lg:py- md:py-16 py-12 text-center">Use Cases</h3>
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
                         <div class="border rounded-md shadow-md bg-blue-400 py-5 pl-5 text-white">
                           <h3 class="text-3xl font-bold py-4">Budgeting</h3>
                           <p>Set unlimited daily, weekly, monthly,<br> or one-time budgets</p>
@@ -59,49 +149,136 @@
                           <p>Get ahead of the curve. Automated upcoming br payment notifications.</p>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </section>
-        <!-- <section class="why_wallet lg:mx-16 md:mx-12 sm:mx-2 h-screen ">
+        <!-- Wallet section start -->
+        <section class="wallet lg:mx-16 md:mx-12 mx-4 ">
+          <div class="content min-h-screen lg:py-20 md:py-16 ">
+            <div class="section_title ">
+              <h3 class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center mb-20">Why Wallet?</h3>
+            </div>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 ">
+              <div class="card  bg-base-100 shadow-xl mx-auto">
+                <figure><img src="assets/images/phone-advanced.png" alt="Shoes" class="p-2"/></figure>
+                <div class="card-body ">
+                  <h2 class="card-title col-span-2 mx-auto">Advanced</h2>
+                  <p  class="text-justify">Wallet is simply smarter.
+                    We combine best-in-breed AI driven categorization and analytics with a deep set of features that are proven to work.</p>
+                </div>
+              </div>
+              <div class="card  bg-base-100 shadow-xl mx-auto">
+                <figure><img src="assets/images/phone-advanced.png" alt="Shoes" class="p-2"/></figure>
+                <div class="card-body ">
+                  <h2 class="card-title mx-auto">User Driven</h2>
+                  <p  class="text-justify">Wallet isn’t a “system.”
+                    You drive your own decision making process. Wallet learns from the user to provide only the data and tools you need most.</p>
+                </div>
+              </div>
+              <div class="card  bg-base-100 shadow-xl mx-auto">
+                <figure><img src="assets/images/phone-advanced.png" alt="Shoes" class="p-2"/></figure>
+                <div class="card-body">
+                  <h2 class="card-title mx-auto">Private</h2>
+                  <p class="text-justify">BudgetBakers does not sell customer data to 3rd parties. Ever.
+                    Your data is yours. Our mission is to help you use it to lead a richer life..</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+        <section class="Leading bg-slate-100 min-h-screen">
+            <div class="lg:mx-16 md:mx-12 mx-4 max-h-min">
+              <h3 class="lg:text-5xl md:text-4xl text-3xl font-bold text-center py-16 ">Leading a Richer Life</h3>
+              <div class="hero  ">
+                <div class="hero-content flex-col lg:flex-row gap-14">
+                  <img src="assets/images/boat.png" class=" rounded-lg shadow-2xl " />
+                  <div>
+                    <h1 class="lg:text-5xl md:text-4xl text-3xl font-medium leading-7">Our mission at <br> Budgetbakers is to help <br>you <span class="text-lime-500">lead a richer life.</span></h1>
+                    <p class="py-6">Building a picture of all your assets, monitoring your money <br>and controlling your spending has one purpose, and one <br>purpose only: to lead to a richer life.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="hero mt-5">
+                <div class="hero-content flex-col lg:flex-row-reverse gap-14">
+                  <img src="assets/images/rich-life.png" class=" rounded-lg shadow-2xl" />
+                  <div>
+                    <h1 class="lg:text-5xl md:text-4xl text-3xl  font-medium  leading-7">A rich life isn’t just about <br> money. <span class="text-lime-500">It’s about how you use it</span> </h1>
+                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut <br>assumenda excepturi exercitationem quasi. In<br> deleniti eaque aut repudiandae et a id nisi.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="wallet_help lg:mx-16 md:mx-12 mx-4 ">
           <div class="section_title">
-            <h3 class="text-6xl font-semibold text-center  lg:py-16">Why Wallet?</h3>
+            <h3 class="lg:text-5xl md:text-4xl text-3xl font-bold text-center py-16 ">Wallet Helps You</h3>
+            <div class=" grid lg:grid-cols-4 grid-cols-1 gap-4 justify-center align-middle">
+              <div class="justify-center">
+                <img src="assets/images/AskQuestions.svg" alt="" class="shadow-md border py-5 px-5 rounded-lg mx-auto mb-3">
+                <div class="text-center">
+                  <p class="lg:text-2xl text-xl font-medium  py-1">Ask the Questions</p>
+                  <p>Where does my money go?</p>
+                </div>
+              </div>
+              <div>
+                <img src="assets/images/Piechart.svg" alt="" class="shadow-md border py-5 px-5 rounded-lg  mx-auto mb-3">
+                <div class="text-center">
+                  <p class="lg:text-2xl text-xl  font-medium py-1">See the Data</p>
+                  <p>Unlock key insights.</p>
+                </div>
+              </div>
+              <div>
+                <img src="assets/images/PlannedPayments.svg" alt="" class="shadow-md border py-5 px-5 rounded-lg mx-auto mb-3">
+                <div class="text-center">
+                  <p class="lg:text-2xl text-xl  font-medium py-1">Be Efficient</p>
+                  <p>No missed payments.</p>
+                </div>
+              </div>
+              <div>
+                <img src="assets/images/Stats-1.svg" alt="" class="shadow-md border py-5 px-5 rounded-lg  mx-auto mb-3">
+                <div class="text-center">
+                  <p class="lg:text-2xl text-xl  font-medium py-1">Have the Answers</p>
+                  <p>Anytime, anywhere.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-            <div class=" ">
-                <img src="assets/images/phone-advanced.png" alt="" class="p-3 w-80">
-                <div class="card_body">
-                  <h4 class="card_title text-2xl font-bold text-center py-3">Advanced</h4>
-                  <p class="">Wallet is simply smarter.
-                  We combine best-in-breed AI driven categorization and analytics with a deep set of features that are proven to work.</p>
+          <div class="hero  bg-sky-100 mt-12">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div>
+                <img src="assets/images/board-image-2-e1649077143557.png" alt="picture">
+                <div class=" text-center">
+                  <button class="btn btn-outline btn-primary text-xl">Try Bord <i class="ri-arrow-right-circle-line text-xl "></i> </button>
                 </div>
-            </div>
-            <div>
-              <img src="assets/images/phone-driven.png" alt="" class="p-3 w-80">
-                <div class="card_body">
-                  <h4 class="card_title text-2xl font-bold text-center py-3">User Driven</h4>
-                <p >Wallet is simply smarter.
-                  We combine best-in-breed AI driven categorization and analytics with a deep set of features that are proven to work.</p>
-                </div>
-            </div>
-            <div>
-              <img src="assets/images/phone-protect.png" alt="" class="p-3 w-80">
-                <div class="card_body">
-                  <h4 class="card_title text-2xl font-bold text-center py-3">Private</h4>
-                <p c>Wallet is simply smarter.
-                  We combine best-in-breed AI driven categorization and analytics with a deep set of features that are proven to work.</p>
-                </div>
+              </div>
+              <div>
+                <img src="assets/images/Board-logo-primary.svg" alt="bord logo" class="pb-10">
+                <h1 class="text-3xl font-medium ">Board: Wallet for Business</h1>
+                <p class="py-6 font-medium text-2xl">Looking for Wallet’s powerful features and more to run a small business?</p>
+                <p class="py-6">That’s why we invented Board: a powerful small business finance manager that goes beyond Point of Sale, to offer you a 360° view of your business finances.</p>
+                
+              </div>
             </div>
           </div>
-        </section> -->
-        <!-- Richer Life section start -->
-        <!-- <section class="why_wallet lg:mx-16 md:mx-12 sm:mx-2 h-screen">
-            <div class="section_title">
-              <h3 >Leading a Richer Life</h3>
-            </div>
-        </section> -->
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-20">
+      
+      <nav>
+        <div class="grid grid-flow-col gap-4">
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+        </div>
+        <div class=" grid grid-cols-2 gap-4 my-8">
+          <img src="assets/images/app-store.svg" alt="">
+          <img src="assets/images/google-play.svg" alt="">
+        </div>
+      </nav> 
+      <aside>
+        <p>Copyright 2022 BudgetBakers s.r.o  All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#"></a>Terms of Service</p>
+      </aside>
     </footer>
     <script src="assets/js/main.js"></script>
 </body>
