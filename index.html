@@ -13,11 +13,12 @@
     <!-- Tailwind & Daisyui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
     <header class=" min-h-full  ">
         <!-- Navbar Start -->
-          <div class="navbar bg-base-100 shadow-md lg:px-16 md:px-12 px-1">
+          <div class="navbar bg-base-100 shadow-md lg:px-16 md:px-12 px-1 sticky top-0">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -135,16 +136,16 @@
                 <div class="use_case ">
                     <h3 class="title lg:text-5xl md:text-4xl text-3xl font-bold lg:py- md:py-16 py-12 text-center">Use Cases</h3>
                     <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
-                        <div class="border rounded-md shadow-md bg-blue-400 py-5 pl-5 text-white">
+                        <div class="border rounded-md shadow-md bg-blue-400 py-5 pl-5 text-white text-center">
                           <h3 class="text-3xl font-bold py-4">Budgeting</h3>
                           <p>Set unlimited daily, weekly, monthly,<br> or one-time budgets</p>
                         </div>
-                        <div  class="border rounded-md shadow-md bg-orange-500 py-5 pl-5 text-white">
+                        <div  class="border rounded-md shadow-md bg-orange-500 py-5 pl-5 text-white text-center">
                           <h3 class="text-3xl font-bold py-4">Expense
                             control</h3>
                           <p>See every transaction, synced and <br>categorized automatically.</p>
                         </div>
-                        <div class="border rounded-md shadow-md bg-green-500 py-5 pl-5 text-white">
+                        <div class="border rounded-md shadow-md bg-green-500 py-5 pl-5 text-white text-center">
                           <h3 class="text-3xl font-bold py-4" >Planning</h3>
                           <p>Get ahead of the curve. Automated upcoming br payment notifications.</p>
                         </div>
@@ -154,7 +155,7 @@
         </section>
         <!-- Wallet section start -->
         <section class="wallet lg:mx-16 md:mx-12 mx-4 ">
-          <div class="content min-h-screen lg:py-20 md:py-16 ">
+          <div class="content min-h-screen lg:py-16 md:py-12 py-8">
             <div class="section_title ">
               <h3 class="lg:text-5xl md:text-4xl text-3xl font-semibold text-center mb-20">Why Wallet?</h3>
             </div>
